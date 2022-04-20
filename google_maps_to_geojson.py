@@ -3,7 +3,7 @@ from urllib.parse import urlencode
 import googlemaps
 import json
 
-google_api_key = 'AIzaSyDkQ2RMFZbDrYP9gJxiNRF_1D7cxgB8aOM'
+google_api_key = API_KEY
 
 class GoogleSearchClient(object):
     api_key = None
